@@ -1,0 +1,67 @@
+*::before, *::after, * {
+  outline: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: whitesmoke;
+}
+canvas {
+  display: block;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 10px blueviolet;
+}
+
+#defaultCanvas0{
+  position: absolute;
+  width: 40%;
+  left: 30%;
+  top: 10%;
+}
+
+.title{
+  text-align: center;
+  margin-right: 45px;
+  text-shadow: 0 0 10px violet;
+}
+
+.instruction {
+  margin-left: 15px;
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 27%;
+  height: 40%;
+  top: 10%;
+  left: 0%;
+}
+
+.buttons {
+  width: 100%;
+  height: 50%;
+}
+
+#resetButton, #difficulty {
+  color: white;
+  font-weight: 900;
+  text-align: center;
+  align-content: center;
+  width: 40%;
+  height: 25%;
+  margin: 5px;
+  background-color: blueviolet;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+
+#difficulty option {
+  font-weight: 900;
+}
+
+
+
+
